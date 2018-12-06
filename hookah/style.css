@@ -1,0 +1,504 @@
+body {
+  background: url("img/main-bg.png") 50% 0%;
+  background-size: cover;
+  margin: 0px;
+}
+@media (max-width: 767px) {
+  body {
+    background: none;
+  }
+}
+.container {
+  overflow: hidden;
+}
+.headblock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 100;
+  top: 225px;
+}
+@media (max-width: 1340px) {
+  .headblock {
+    top: 65px;
+  }
+}
+@media (max-width: 767px) {
+  .headblock {
+    top: 192px;
+    position: absolute;
+  }
+}
+@media (max-width: 480px) {
+  .headblock {
+    top: 62px;
+  }
+}
+.headblock span {
+  color: white;
+  font-family: "Myriad Pro";
+  line-height: 62px;
+  max-width: 544px;
+  text-align: center;
+  padding-left: 80px;
+}
+@media (max-width: 1080px) {
+  .headblock span {
+    padding: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .headblock span {
+    max-width: 450px;
+    line-height: 50px;
+  }
+}
+.headblock span.hb1 {
+  font-size: 74px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .headblock span.hb1 {
+    font-size: 61px;
+  }
+}
+@media (max-width: 480px) {
+  .headblock span.hb1 {
+    font-size: 36px;
+  }
+}
+.headblock span.hb2 {
+  font-size: 39px;
+  font-weight: 400;
+  position: relative;
+  top: 10px;
+  left: -5px;
+}
+@media (max-width: 767px) {
+  .headblock span.hb2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .headblock span.hb2 {
+    font-size: 24px;
+    line-height: inherit;
+  }
+}
+.content {
+  max-width: 1270px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 112px;
+}
+@media (max-width: 1340px) {
+  .content {
+    margin-top: -150px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .content {
+    margin-top: -150px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.content-left {
+  position: relative;
+}
+@media (max-width: 1260px) {
+  .content-left {
+    width: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: url("img/main-bg.png") 50% 0%;
+    background-size: cover;
+    border-bottom: 12px solid #70c000;
+  }
+}
+.content-left img {
+  position: absolute;
+}
+.content-left img.left-img-1 {
+  z-index: 2;
+  left: -133px;
+  top: 26px;
+}
+@media (max-width: 767px) {
+  .content-left img.left-img-1 {
+    left: 28px;
+    height: 605px;
+    width: 390px;
+    position: relative;
+    margin-top: 513px;
+  }
+}
+@media (max-width: 480px) {
+  .content-left img.left-img-1 {
+    margin-top: 393px;
+    height: 405px;
+    width: 280px;
+  }
+}
+.content-left img.left-img-2 {
+  top: 185px;
+  z-index: 1;
+  left: -150px;
+}
+@media (max-width: 767px) {
+  .content-left img.left-img-2 {
+    left: 50%;
+    margin-left: -178px;
+    top: 654px;
+    width: 353px;
+    height: 353px;
+  }
+}
+@media (max-width: 480px) {
+  .content-left img.left-img-2 {
+    top: 534px;
+    width: 253px;
+    height: 253px;
+    margin-left: -126px;
+  }
+}
+.content-left .left-text {
+  float: left;
+  position: relative;
+  margin-left: 96px;
+  margin-top: 315px;
+  z-index: 50;
+  width: 500px;
+  min-height: 183px;
+  background-color: #70c000;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1260px) {
+  .content-left .left-text {
+    width: 100%;
+    padding: 10px 20px;
+    margin-left: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .content-left .left-text {
+    width: 86%;
+    min-height: 152px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    top: 62px;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .content-left .left-text {
+    margin-left: 0px;
+  }
+}
+.content-left .left-text span {
+  color: white;
+  font-family: "Myriad Pro";
+  font-weight: 400;
+  text-align: center;
+  max-width: 330px;
+}
+@media (max-width: 767px) {
+  .content-left .left-text span {
+    max-width: 470px;
+  }
+}
+.content-left .left-text span.left-text1 {
+  font-size: 28px;
+}
+@media (max-width: 480px) {
+  .content-left .left-text span.left-text1 {
+    font-size: 24px;
+  }
+}
+.content-left .left-text span.left-text2 {
+  font-size: 20px;
+  position: relative;
+  top: 6px;
+  left: -5px;
+}
+@media (max-width: 767px) {
+  .content-left .left-text span.left-text2 {
+    top: 9px;
+    left: 4px;
+  }
+}
+@media (max-width: 480px) {
+  .content-left .left-text span.left-text2 {
+    left: auto;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1260px) {
+  .content-right {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .content-right {
+    margin-top: 70px;
+    width: 100%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  .content-right {
+    margin-left: 0px;
+  }
+}
+.content-right .form-block {
+  width: 648px;
+  height: 390px;
+  border-radius: 3px;
+  margin-top: 316px;
+  position: relative;
+  left: -3px;
+}
+@media (max-width: 1260px) {
+  .content-right .form-block {
+    width: 100%;
+    left: auto;
+  }
+}
+@media (max-width: 767px) {
+  .content-right .form-block {
+    width: 86%;
+    margin-top: 0px;
+  }
+}
+.content-right .form-block .citrus {
+  position: absolute;
+  right: -104px;
+  top: -195px;
+}
+@media (max-width: 767px) {
+  .content-right .form-block .citrus {
+    display: none;
+  }
+}
+.content-right .form-block .greenblock {
+  width: 100%;
+  height: 300px;
+  background: url(img/greencard.png) 100% 0% no-repeat;
+}
+@media (max-width: 767px) {
+  .content-right .form-block .greenblock {
+    background: url(img/dotted.png) 50% 180% no-repeat, url(img/greencard.png) 100% 0% no-repeat;
+  }
+}
+@media (max-width: 680px) {
+  .content-right .form-block .greenblock {
+    background: url(img/greencard.png) 100% 0% no-repeat;
+  }
+}
+@media (max-width: 480px) {
+  .content-right .form-block .greenblock {
+    background: url(img/greencard.png) 96% 0% no-repeat;
+  }
+}
+.content-right .form-block .greenblock .greenblock-form {
+  display: flex;
+  flex-direction: column;
+  padding: 58px 0px 0px 68px;
+}
+@media (max-width: 1260px) {
+  .content-right .form-block .greenblock .greenblock-form {
+    padding-left: 45px;
+  }
+}
+@media (max-width: 767px) {
+  .content-right .form-block .greenblock .greenblock-form {
+    align-items: center;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .content-right .form-block .greenblock .greenblock-form {
+    padding-top: 28px;
+  }
+}
+.content-right .form-block .greenblock .greenblock-form .form-head {
+  color: white;
+  font-family: "Myriad Pro";
+  font-size: 24px;
+  font-weight: 700;
+  width: 482px;
+  margin-bottom: 10px;
+  padding-left: 6px;
+}
+@media (max-width: 767px) {
+  .content-right .form-block .greenblock .greenblock-form .form-head {
+    width: 76%;
+  }
+}
+@media (max-width: 480px) {
+  .content-right .form-block .greenblock .greenblock-form .form-head {
+    text-align: center;
+    padding: 0px;
+  }
+}
+.content-right .form-block .greenblock .greenblock-form input {
+  display: block;
+  width: 482px;
+  height: 42px;
+  padding-left: 40px;
+  margin: 8px 0px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: white;
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  font-weight: 400;
+}
+@media (max-width: 1260px) {
+  .content-right .form-block .greenblock .greenblock-form input {
+    width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .content-right .form-block .greenblock .greenblock-form input {
+    width: 78%;
+  }
+}
+.content-right .form-block .greenblock .greenblock-form input::placeholder {
+  opacity: 0.8;
+  color: white;
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  font-weight: 400;
+  visibility: visible !important;
+}
+.content-right .form-block .gift {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #70c000;
+  font-family: "Myriad Pro";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  padding-left: 25px;
+}
+@media (max-width: 767px) {
+  .content-right .form-block .gift {
+    box-shadow: 0px 15px 59px -23px rgba(90, 90, 90, 0.75);
+    padding-left: 54px;
+  }
+}
+@media (max-width: 680px) {
+  .content-right .form-block .gift {
+    padding-left: 0px;
+  }
+}
+.content-right .form-block .gift:focus {
+  outline: none;
+  border: none;
+}
+.content-right .timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.content-right .timer .timer-text {
+  color: white;
+  font-family: "Myriad Pro";
+  font-size: 30px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 2px;
+  margin-left: -10px;
+}
+@media (max-width: 767px) {
+  .content-right .timer .timer-text {
+    margin-top: 34px;
+    margin-left: 8px;
+    font-size: 36px;
+    color: #2b2b2b;
+  }
+}
+@media (max-width: 480px) {
+  .content-right .timer .timer-text {
+    margin-left: 0px;
+    font-size: 30px;
+  }
+}
+.content-right .timer .timer-time {
+  font-family: "Myriad Pro";
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: -10px;
+}
+@media (max-width: 767px) {
+  .content-right .timer .timer-time {
+    color: #2b2b2b;
+    font-size: 25px;
+    margin-left: 2px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .content-right .timer .timer-time {
+    margin-left: 0px;
+    font-size: 16px;
+  }
+}
+.content-right .timer .timer-time span {
+  color: #83e100;
+  font-size: 44px;
+  font-weight: 700;
+  margin: 0px 5px;
+}
+@media (max-width: 767px) {
+  .content-right .timer .timer-time span {
+    font-size: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .content-right .timer .timer-time span {
+    font-size: 32px;
+  }
+}
+.greenline {
+  width: 100%;
+  height: 26px;
+  background-color: #70c000;
+}
+@media (max-width: 767px) {
+  .greenline {
+    display: none;
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='ru'>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Кальян</title>
+        <script type='text/javascript' src="jquery.js"></script>
+
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script type='text/javascript' src="mainscript.js"></script>
+        
+        <link href='style.css' rel='stylesheet'>
+    </head>
+<body>
+	<div class="container">
+		<div class="headblock">
+			<span class="hb1">Два кальяна <br> по цене одного!</span>
+			<span class="hb2">Окунитесь в атмосферу Востока</span>
+		</div>
+		<div class="content">
+			<div class="content-left">
+				<img class="left-img-1" src="img/turbo.png">
+				<img class="left-img-2" src="img/circle.png">
+				<div class="left-text">
+					<span class="left-text1">Забронируйте стол онлайн и получите 2 кальяна по цене 1! </span>
+					<span class="left-text2">( Пн - Сб, с 11:00 до 18:00 )</span>
+				</div>
+			</div>
+			<div class="content-right">
+				<div class="form-block">
+					<img class="citrus" src="img/citrus.png">
+					<div class="greenblock">
+						<form action="mailto:example@mail.ru" method="post" id="data" class='greenblock-form'>
+							<span class="form-head"> Забронировать стол </span>
+							<input type="text" name="name" placeholder="Ваше имя" required> 
+							<input type="text" name="date" placeholder="Дата" required> 
+							<input type="text" name="number" id="phone" placeholder="+7 (___) ___-__-__" required> 
+						</form>
+					</div>
+					<button class="gift" type="submit" form="data">Получить кальян в подарок!</button>
+					<!-- <div class="gift">
+						<span>Получить кальян в подарок!</span>
+					</div> -->
+				</div>
+				<div class="timer">
+					<span class="timer-text">
+						До конца акции:
+					</span>
+					<span class="timer-time">
+						<span class='timer-hours'>10</span> часов <span class='timer-min'>26</span> минут 
+						<span class='timer-sec'>32</span> секунды
+					</span>
+				</div>
+
+			</div>
+		</div>
+		<div class="greenline">   </div>
+	</div> <!-- container -->
+
+</body>
+</html>
