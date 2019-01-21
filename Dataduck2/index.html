@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <script type='text/javascript' src="js/jquery.js"></script>
+    <script type='text/javascript' src="js/script.js"></script>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+ 
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <input type="text">
+      <div class="login">Войти</div>
+    </div>
+    <div class='container'>
+      <div class="top-field">  </div>
+      <div class='top-text'>
+        <h1> Начните торговать  прямо сейчас </h1>
+        <ul>
+          <li>Нет спреда — торгуйте с прозрачными и точными котировками</li>
+          <li>Достаточно депозита в $10, чтобы начать торговать</li>
+        </ul>
+      </div>
+      <form class="form" action="example.js" method="post">
+        <div class="input-box">
+          <input type="text" name="email" class='email inputText' required/>
+          <span class="floating-label">Ваш e-mail</span>
+        </div>
+        <div class="input-box">
+          <div class="input-error password-error">Неверный пароль</div>
+          <input type="text" name="password" class='password inputText' required/>
+          <span class="floating-label">Придумайте пароль</span>
+        </div>
+        <div class="money">
+          <span>Валюта для ввода и вывода средств</span>
+          <div class='money-tape'>
+            <div>Р</div>
+            <div>S</div>
+            <div>E</div>
+          </div>
+        </div>
+        <div class="check">
+          <input type="checkbox" name="checkbox" class='checkbox'>
+          <span>Я совершеннолетний, ознакомился и принимаю соглашение об оказании услуг.</span>
+        </div>
+        <div class="submit-message submit-error"></div>
+        <div class="submit-message submit-success"></div>
+        <button type="submit" name="button" class='form-button'>Зарегистрироваться</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
