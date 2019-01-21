@@ -177,6 +177,10 @@ body {
   border: 1px solid #031025;
   border-radius: 4px;
   -webkit-text-fill-color: white !important;
+  caret-color: white;
+}
+.form input:-webkit-autofill:focus {
+   border: 1px solid #20A86B;
 }
 .form .email,
 .form .password {
