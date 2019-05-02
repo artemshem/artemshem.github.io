@@ -55,7 +55,7 @@ $(document).ready(function(){
     if(email & number & name) {
       $.ajax({
         type: 'POST',
-        url: 'mail.php',
+        url: 'js/mail.php',
         data: $(this).serialize
       }).done(function() {
         alert('Спасибо за заявку! Скоро мы с вами свяжемся!');
