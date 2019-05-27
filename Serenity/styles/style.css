@@ -1926,6 +1926,11 @@ html .middle-title--tree + .standart-description {
   padding: 0px 15px;
   text-decoration: none;
 }
+
+.footer__item:hover {
+  opacity: 0.6;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
